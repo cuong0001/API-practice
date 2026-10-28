@@ -34,4 +34,4 @@ python test.py
 ```
 
 ## Demonstration video
-WIP
+Youtube link: https://www.youtube.com/watch?v=gOphUHEM4FY
