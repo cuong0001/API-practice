@@ -64,6 +64,6 @@ def predict(data: PredictionInput):
     except Exception as e:
         raise HTTPException(
             status_code = status.HTTP_500_INTERNAL_SERVER_ERROR,
-            details = f"Error during model's reasoning process: {str(e)}"
+            detail = f"Error during model's reasoning process: {str(e)}"
         )
 
